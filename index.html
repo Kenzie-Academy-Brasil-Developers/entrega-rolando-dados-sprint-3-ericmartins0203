@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rolando dados</title>
-</head>
-<body>
-    <h1>Rolando dados</h1>
+    <link rel="stylesheet" href="./styles.css">
 
-    <script src="dice-roller.js"></script>
+</head>
+<body id="body">
+    <h1>Rolando dados</h1>
+    <label for="Roll"></label>
+    <button id="rollTheDice" type="button">Roll the dice</button>
+    <label for="Reset"></label>
+    <button id="reset" type="button">Reset</button>    
+    <div id="container">
+        <div id="estatistica" ></div>
+        <div id="place"></div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>

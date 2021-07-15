@@ -1,0 +1,22 @@
+#container{
+    display:flex;
+    flex-direction: row;
+    flex:2;
+    width:100vw;
+}
+#estatistica{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+#place{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.text{
+    height: 27.5px;
+    margin: 0
+}
