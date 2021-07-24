@@ -51,7 +51,7 @@ rollTheDice.addEventListener("click",function(){
     rollTwice()
 })
 
-function resetALl() {
+function resetAll() {
     const estatistica = document.getElementById('estatistica')
     const place = document.getElementById('place')
     estatistica.innerHTML=""
